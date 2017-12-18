@@ -6,4 +6,4 @@ RUN apt-get update && apt-get install -y \
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/*
 
-RUN git clone --recursive --branch boost-1.65.1 https://github.com/boostorg/boost.git
+RUN git clone --recursive --branch boost-1.66.0 https://github.com/boostorg/boost.git
