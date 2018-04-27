@@ -1,4 +1,4 @@
-FROM ubuntu:yakkety
+FROM ubuntu:latest
 MAINTAINER Lenny Maiorani <ldm5180@gmail.com>
 
 RUN apt-get update && apt-get install -y \
